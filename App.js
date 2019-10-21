@@ -2,7 +2,7 @@ import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { createAppContainer } from "react-navigation";
 
-import SearchScreen from "./src/SearchScreen";
+import SearchScreen from "./src/screens/SearchScreen";
 import { createStackNavigator } from "react-navigation-stack";
 
 const navigator = createStackNavigator(
